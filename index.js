@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 8080
 
 const passport = require('passport')
 // require("./config/passport-setup")(passport);
-const session = require('express-session')
+// const session = require('express-session')
 
 const authRoutes = require('./routes/auth-routes')
 const mealRoutes = require('./routes/meal-routes')
